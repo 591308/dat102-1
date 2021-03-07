@@ -8,8 +8,6 @@ public class Klient {
 		//2, 4, 5, 7, 8, 10, 12, 15, 18, 21, 23, 27, 29, 30, 31
 		Integer[] tall = {2, 4, 5, 7, 8, 10, 12, 15, 18, 21, 23, 27, 29, 30, 31};
 		
-	
-		
 		
 		System.out.println("Originale data ");
 		for (int i = 0; i < tall.length; i++) {
@@ -22,6 +20,7 @@ public class Klient {
 		int inn = in.nextInt();
 		
 		System.out.println("Binaersøk av tallet: " + Binærsøk.binaerSoek(tall, 0, tall.length-1, inn));
+		
 		
 		in.close();
 		

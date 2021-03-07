@@ -50,5 +50,34 @@ public class Binærsøk {
 		return funnet;
 
 	}
+	public static <T extends Comparable<T>> int binaerSoek4(T[] data, int min, int maks, T el){
+		// Returnerer indeksen til målelementet hvis det fins ellers -1
+		
+		int foerste= min; int siste = maks; int indeks = -1; boolean funnet = false; int resultat = 0;
+		while((foerste<= siste) && !funnet){
+			
+			int midtpunkt = (foerste + siste)/2;
+			
+			resultat = el.compareTo(data[midtpunkt]);
+			
+			if(resultat == 0){
+				
+				funnet = true; 
+				
+				indeks = midtpunkt;
+				}else
+					if(resultat < 0){
+				//Søk i nedre halvdel
+						siste = midtpunkt -1;
+						}
+					else{//Søk i øvre halvdel
+						foerste= midtpunkt + 1;
+						} 
+			}//while
+		return indeks;
+		}
+			
+		
+	}
 	
-}
+
