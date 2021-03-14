@@ -10,11 +10,11 @@ public class KlientMedlem {
 		Meny meny = new Meny(dataKontakt);
 
 		meny.start();
-//		
+		
 //		Hobby game = new Hobby("game");
 //		Hobby sove = new Hobby("sove");
-//		Hobby drugs = new Hobby("drugs");
-//		Hobby anal = new Hobby("anal");
+//		Hobby syngje = new Hobby("syngje");
+//		Hobby danse = new Hobby("danse");
 //		
 //		KjedetMengde<Hobby> karstenS = new KjedetMengde<Hobby>();
 //			karstenS.leggTil(game);
@@ -22,18 +22,18 @@ public class KlientMedlem {
 //		
 //		KjedetMengde<Hobby> eivydasS = new KjedetMengde<Hobby>();
 //			eivydasS.leggTil(sove);
-//			eivydasS.leggTil(drugs);
+//			eivydasS.leggTil(syngje);
 //		
 //		KjedetMengde<Hobby> ulrikS = new KjedetMengde<Hobby>();
-//			ulrikS.leggTil(anal);
+//			ulrikS.leggTil(danse);
 //			ulrikS.leggTil(sove);
 //		
 //		KjedetMengde<Hobby> haralS = new KjedetMengde<Hobby>();
 //			haralS.leggTil(sove);
-//			haralS.leggTil(drugs);
+//			haralS.leggTil(syngje);
 //			
 //		KjedetMengde<Hobby> annaS = new KjedetMengde<Hobby>();
-//			annaS.leggTil(anal);
+//			annaS.leggTil(danse);
 //			annaS.leggTil(sove);
 //			
 //		Medlem Karsten = new Medlem("Karsten", karstenS);

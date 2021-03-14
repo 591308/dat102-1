@@ -15,7 +15,7 @@ public class TårnIHanoi{
 		
 		flyttRinger(antallRinger, 1, 3, 2);
 //		System.out.println("Antall ganger køyrt: " + kort);
-		System.out.println("Antall gonger køyrt: " + antallFlyttinger(antallRinger));
+		System.out.println("Antall flyttinger for " + antallRinger +  " ringer: " + antallFlyttinger(antallRinger));
 		
 		
 	}

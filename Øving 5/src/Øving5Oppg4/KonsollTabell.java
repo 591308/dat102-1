@@ -66,8 +66,7 @@ public class KonsollTabell {
 
     private void printLine(int[] columnWidths) {
         for (int i = 0; i < columnWidths.length; i++) {
-            String line = String.join("", Collections.nCopies(columnWidths[i] +
-                    verticalSep.length() + 1, HORIZONTAL_SEP));
+            String line = String.join("", Collections.nCopies(columnWidths[i] + verticalSep.length() + 1, HORIZONTAL_SEP));
             System.out.print(joinSep + line + (i == columnWidths.length - 1 ? joinSep : ""));
         }
         System.out.println();

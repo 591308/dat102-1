@@ -4,7 +4,7 @@ package Øving5Oppg1c;
 public class SpillTårnIHanoi {
 	public static void main(String[] args){
 		//Max antall ringer for n antall forflytnigner er 31
-		TårnIHanoi tårn = new TårnIHanoi(1);
+		TårnIHanoi tårn = new TårnIHanoi(4);
 		
 		TårnIHanoi tårn1 = new TårnIHanoi(15);
 		
